@@ -1,0 +1,352 @@
+{
+  "certificate": {
+    "algorithm": "complete_component_enumeration_with_global_mine_count",
+    "candidate_attempt": 5,
+    "global_stages": 2,
+    "max_frontier": 20,
+    "reference_atomic_attempts": 27,
+    "reference_calls": 7,
+    "stages": [
+      {
+        "frontier": 20,
+        "revealed": 16,
+        "safe": [
+          18,
+          19,
+          21,
+          22,
+          23,
+          26,
+          31,
+          34,
+          50,
+          55,
+          58,
+          59,
+          61,
+          62,
+          63
+        ],
+        "visible_sha256": "f0997e148395bdd3fc0011ce620fc6dbf1757eb48f07d39588b786ceff6e800e"
+      },
+      {
+        "frontier": 3,
+        "revealed": 51,
+        "safe": [
+          48,
+          56,
+          57
+        ],
+        "visible_sha256": "81ba6fd4d10e78bcf87482bfa805f771a42d712b72f4f34e1de5ce9b55cb34f0"
+      }
+    ]
+  },
+  "data": {
+    "initial": 36,
+    "mines": [
+      0,
+      13,
+      20,
+      25,
+      33,
+      39,
+      42,
+      47,
+      49,
+      60
+    ],
+    "n": 8
+  },
+  "family": "minesweeper",
+  "goal": "Reveal every non-mine cell without clicking a mine. Total mines and initial clues are visible.",
+  "reference_actions": [
+    {
+      "tool": "click",
+      "x": 265,
+      "y": 335
+    },
+    {
+      "tool": "click",
+      "x": 343,
+      "y": 335
+    },
+    {
+      "tool": "click",
+      "x": 499,
+      "y": 335
+    },
+    {
+      "tool": "click",
+      "x": 577,
+      "y": 335
+    },
+    {
+      "tool": "click",
+      "x": 265,
+      "y": 257
+    },
+    {
+      "tool": "click",
+      "x": 343,
+      "y": 257
+    },
+    {
+      "tool": "click",
+      "x": 421,
+      "y": 257
+    },
+    {
+      "tool": "click",
+      "x": 655,
+      "y": 257
+    },
+    {
+      "tool": "click",
+      "x": 499,
+      "y": 179
+    },
+    {
+      "tool": "click",
+      "x": 109,
+      "y": 257
+    },
+    {
+      "tool": "click",
+      "x": 109,
+      "y": 335
+    },
+    {
+      "tool": "click",
+      "x": 109,
+      "y": 413
+    },
+    {
+      "tool": "click",
+      "x": 265,
+      "y": 413
+    },
+    {
+      "tool": "click",
+      "x": 265,
+      "y": 491
+    },
+    {
+      "tool": "click",
+      "x": 265,
+      "y": 647
+    },
+    {
+      "tool": "click",
+      "x": 655,
+      "y": 647
+    },
+    {
+      "tool": "click",
+      "x": 109,
+      "y": 491
+    },
+    {
+      "tool": "click",
+      "x": 187,
+      "y": 569
+    },
+    {
+      "tool": "click",
+      "x": 265,
+      "y": 725
+    },
+    {
+      "tool": "click",
+      "x": 343,
+      "y": 725
+    },
+    {
+      "tool": "click",
+      "x": 109,
+      "y": 569
+    },
+    {
+      "tool": "click",
+      "x": 499,
+      "y": 725
+    },
+    {
+      "tool": "click",
+      "x": 577,
+      "y": 725
+    },
+    {
+      "tool": "click",
+      "x": 655,
+      "y": 725
+    },
+    {
+      "tool": "click",
+      "x": 109,
+      "y": 647
+    },
+    {
+      "tool": "click",
+      "x": 109,
+      "y": 725
+    },
+    {
+      "tool": "click",
+      "x": 187,
+      "y": 725
+    }
+  ],
+  "reference_batches": [
+    [
+      {
+        "tool": "click",
+        "x": 265,
+        "y": 335
+      },
+      {
+        "tool": "click",
+        "x": 343,
+        "y": 335
+      },
+      {
+        "tool": "click",
+        "x": 499,
+        "y": 335
+      },
+      {
+        "tool": "click",
+        "x": 577,
+        "y": 335
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 265,
+        "y": 257
+      },
+      {
+        "tool": "click",
+        "x": 343,
+        "y": 257
+      },
+      {
+        "tool": "click",
+        "x": 421,
+        "y": 257
+      },
+      {
+        "tool": "click",
+        "x": 655,
+        "y": 257
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 499,
+        "y": 179
+      },
+      {
+        "tool": "click",
+        "x": 109,
+        "y": 257
+      },
+      {
+        "tool": "click",
+        "x": 109,
+        "y": 335
+      },
+      {
+        "tool": "click",
+        "x": 109,
+        "y": 413
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 265,
+        "y": 413
+      },
+      {
+        "tool": "click",
+        "x": 265,
+        "y": 491
+      },
+      {
+        "tool": "click",
+        "x": 265,
+        "y": 647
+      },
+      {
+        "tool": "click",
+        "x": 655,
+        "y": 647
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 109,
+        "y": 491
+      },
+      {
+        "tool": "click",
+        "x": 187,
+        "y": 569
+      },
+      {
+        "tool": "click",
+        "x": 265,
+        "y": 725
+      },
+      {
+        "tool": "click",
+        "x": 343,
+        "y": 725
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 109,
+        "y": 569
+      },
+      {
+        "tool": "click",
+        "x": 499,
+        "y": 725
+      },
+      {
+        "tool": "click",
+        "x": 577,
+        "y": 725
+      },
+      {
+        "tool": "click",
+        "x": 655,
+        "y": 725
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 109,
+        "y": 647
+      },
+      {
+        "tool": "click",
+        "x": 109,
+        "y": 725
+      },
+      {
+        "tool": "click",
+        "x": 187,
+        "y": 725
+      }
+    ]
+  ],
+  "seed": 123,
+  "tier": "hard"
+}

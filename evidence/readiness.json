@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "checks": {
+    "data": {
+      "practice": {
+        "count": 128,
+        "complete": true,
+        "sha256": "6427d94ad830b1b8ef12d67c7b210a02a2bd2189da12e03966a24272e9c129ef",
+        "recertified_now": false
+      },
+      "validation": {
+        "count": 32,
+        "complete": true,
+        "sha256": "1e7f7215553087ed7546a81e1d67b8a3a2803a8b1d2cf3f1a5c5dacc014ecb24",
+        "recertified_now": false
+      },
+      "hidden": {
+        "count": 96,
+        "complete": true,
+        "sha256": "0646e00e9203676c20b569676409ce000bdc53f6a4e63f5246f59c106a62890a",
+        "recertified_now": false
+      }
+    },
+    "native_assets": {
+      "files": 93,
+      "revision": "7fd85d71a4b60325c6585396ec4f48377d049838"
+    },
+    "model_source": {
+      "repo": "autotrust/JEV-27B-VL",
+      "revision": "3ea6d7a3a140d2d08e6a64174195967013168d5b",
+      "active_mode": "System 2",
+      "license": "apache-2.0",
+      "manifest_files": 33
+    }
+  },
+  "ready_for_submission": false,
+  "blockers": [
+    "game_model_difficulty_calibration_not_measured",
+    "missing_real_gpu_evidence:b0_judge.json",
+    "missing_real_gpu_evidence:b1_judge.json",
+    "missing_real_gpu_evidence:gpu-smoke.json",
+    "missing_real_gpu_evidence:research_trajectory.json",
+    "official_harbor_validation_and_trajectory_upload_not_run",
+    "target_docker_linux_chromium_not_validated"
+  ],
+  "no_model_results_inferred_from_reference_success": true
+}

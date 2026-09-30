@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/private/
+artifacts/
+vendor/
+evidence/private/
+dist/private/
+.cache/
+jevbench/.fifteen_solver

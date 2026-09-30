@@ -1,0 +1,612 @@
+{
+  "files": {
+    ".gitignore": {
+      "bytes": 139,
+      "sha256": "1fe2ac69536c5745ed963dbc4e4392e32e5984f0fbc028e8abe6b5ee053f2e63"
+    },
+    "GAME_TASKS.md": {
+      "bytes": 9329,
+      "sha256": "0fbede8ec819063e1712e85029e9c379274fb98f70183267ce31e3955a717f50"
+    },
+    "IMPLEMENTATION_STATUS.md": {
+      "bytes": 3023,
+      "sha256": "73a99bea564d9fbd536811fc7cfcf770f387fd8fffea918ada9f52bcd57ba0d2"
+    },
+    "README.md": {
+      "bytes": 2613,
+      "sha256": "dc6ef40a1743450a097864130041dc55331b24d333f2ac10f1ebe7f6cf7c3b9f"
+    },
+    "RUNBOOK.md": {
+      "bytes": 4813,
+      "sha256": "beffe4ca2de1551f3c93d82a054650aba898b0df1ea1a0989b77f87fa5d200cb"
+    },
+    "SUBMISSION.md": {
+      "bytes": 3545,
+      "sha256": "259a47bd44d359bdcb5e480e3a07328d127dba5b6f5bbb2ffea7d6100362da2e"
+    },
+    "TASK_SPEC.md": {
+      "bytes": 17044,
+      "sha256": "20e83b5846174ef110c04b0684d2311b51df03e01cb5b91e1549295de96c3bad"
+    },
+    "assets/DejaVuSans.ttf": {
+      "bytes": 756072,
+      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+    },
+    "assets/FONT_SOURCE.json": {
+      "bytes": 421,
+      "sha256": "fd035997e90530e697a8032547d122191cc8682a1957ce102d213e4ec79a6c2b"
+    },
+    "assets/LICENSE_DEJAVU": {
+      "bytes": 4816,
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    },
+    "assets/vendor/miniwob/LICENSE": {
+      "bytes": 1222,
+      "sha256": "fd6529fb8f648d4130fd969e3d7fc740c9992a0bd94a1998f52555a873311511"
+    },
+    "assets/vendor/miniwob/SOURCE_MANIFEST.json": {
+      "bytes": 15060,
+      "sha256": "f3ca00a0a75a77a45ff8c344d1ce6c5e9df704becd1c8b8932431acd033f24a2"
+    },
+    "assets/vendor/miniwob/common/shapes.js": {
+      "bytes": 8752,
+      "sha256": "0160839b9695cef26de53625170a3f4a01dbb6a474ec8fb81a4d6b058dc0d7c0"
+    },
+    "assets/vendor/miniwob/common/special/book-flight/domestic.js": {
+      "bytes": 18174,
+      "sha256": "493982bee63ce225d2f380f6ced3d38e16abe65d0ac261b4c2286042f79c583f"
+    },
+    "assets/vendor/miniwob/common/special/checkbox-numbers/ch_0.png": {
+      "bytes": 7177,
+      "sha256": "232c7f3106837500910564d35155f1a06a2d95f8939f87c9b5d0801dc48c55fe"
+    },
+    "assets/vendor/miniwob/common/special/checkbox-numbers/ch_1.png": {
+      "bytes": 7031,
+      "sha256": "69a408b3f1859c4e3ef5973a5362322f2df740dccb59c4448dba5b430cc89c05"
+    },
+    "assets/vendor/miniwob/common/special/checkbox-numbers/ch_2.png": {
+      "bytes": 7065,
+      "sha256": "5fa4fae7ee713a9d75fddb5064236ac2e1645217e2379f9732b83731b618a5ec"
+    },
+    "assets/vendor/miniwob/common/special/checkbox-numbers/ch_3.png": {
+      "bytes": 7095,
+      "sha256": "112e0b4e5e1cad652821a3c0431b7a9c0afb9985c00afaf9451791933c15b2d7"
+    },
+    "assets/vendor/miniwob/common/special/checkbox-numbers/ch_4.png": {
+      "bytes": 7019,
+      "sha256": "90e297031a9fecd6016d4227d068a49c31b26cc212648a024eeff9e182fc05a0"
+    },
+    "assets/vendor/miniwob/common/special/checkbox-numbers/ch_5.png": {
+      "bytes": 7079,
+      "sha256": "872e25c4eba83f49a3806406fd0722c401343fabffebd6987729f8aeaafba7f9"
+    },
+    "assets/vendor/miniwob/common/special/checkbox-numbers/ch_6.png": {
+      "bytes": 7079,
+      "sha256": "300589af6b4fcb48f6ffa730b278d44c4794e14dba37ea9a2f8f4af49e3a99d3"
+    },
+    "assets/vendor/miniwob/common/special/checkbox-numbers/ch_7.png": {
+      "bytes": 7052,
+      "sha256": "a33bdeb6f61c84f278527b64992ba7b109f85c34611667c6063f28bee19b63cd"
+    },
+    "assets/vendor/miniwob/common/special/checkbox-numbers/ch_8.png": {
+      "bytes": 7047,
+      "sha256": "cbc46ab5434b5c409587896318e7ba054c74cad1087616a4d88db1b9e9d2323b"
+    },
+    "assets/vendor/miniwob/common/special/checkbox-numbers/ch_9.png": {
+      "bytes": 7092,
+      "sha256": "27e96b8b591249ec37ac703941c4500df289fd00bea9bc1f7e40dfca496e72ea"
+    },
+    "assets/vendor/miniwob/common/special/click-pie/raphael.icons.min.js": {
+      "bytes": 265643,
+      "sha256": "51777d20fdcc55bc673839642611f675c61ab0e20ed7e256092edb3fc36146b2"
+    },
+    "assets/vendor/miniwob/common/special/click-pie/raphael.min.js": {
+      "bytes": 91015,
+      "sha256": "0a02d6021c8cf2597497dfad2df84ef4f952dc049e7dff68fbd010f953fb46a6"
+    },
+    "assets/vendor/miniwob/common/special/click-pie/wheelnav.min.js": {
+      "bytes": 79803,
+      "sha256": "0d1ce8836d0e136fb064113ee7f71c0c6183a0c3cb61731532b8db964dd14912"
+    },
+    "assets/vendor/miniwob/common/special/drag-cube/blank.png": {
+      "bytes": 52210,
+      "sha256": "47e44a83e8debe7374243e1a4e7b86917ad3922d21556fd9c74797ab4a9b4264"
+    },
+    "assets/vendor/miniwob/common/special/drag-cube/cube.css": {
+      "bytes": 3984,
+      "sha256": "69497b56a0a62fd15f268e2b8d2469b2d44b1a74071be337d99f240ecb7f09c2"
+    },
+    "assets/vendor/miniwob/common/special/drag-cube/cube.js": {
+      "bytes": 10003,
+      "sha256": "1918a3d201bab64bcd070f8e4565162077a012ff5fead5c60f55bf886303c5f1"
+    },
+    "assets/vendor/miniwob/common/special/dropdown/jquery.selectric.js": {
+      "bytes": 35085,
+      "sha256": "a5ea7d59083ae327a804de07310cda8dcb97d03f4295733d63cfeec808d5fc3b"
+    },
+    "assets/vendor/miniwob/common/special/dropdown/selectric.css": {
+      "bytes": 4278,
+      "sha256": "aabc43c572699468e8b19b1116a641e64a7292146977f96e56937f0661e3069a"
+    },
+    "assets/vendor/miniwob/common/special/email-inbox-nl/templates.js": {
+      "bytes": 26443,
+      "sha256": "7f310ee07564a625ab48d8e12eb98cfcdc760e6c864339bb11ac9516855242e7"
+    },
+    "assets/vendor/miniwob/common/special/email-inbox/delete.png": {
+      "bytes": 1713,
+      "sha256": "8ad69e8d19c866e6dd5a6dfc33d7ffc2001dc2440b1168a69512cdbe89d62945"
+    },
+    "assets/vendor/miniwob/common/special/email-inbox/email-inbox.css": {
+      "bytes": 4697,
+      "sha256": "53e2cf3e449d1230119c551f7b8d6b4c50f9dc005f204c87761829007e06f6ac"
+    },
+    "assets/vendor/miniwob/common/special/email-inbox/forward.png": {
+      "bytes": 622,
+      "sha256": "d617e91fd8b0bfb5540aaec5d62f3040bc13198cfd5cc30d041430e296d91985"
+    },
+    "assets/vendor/miniwob/common/special/email-inbox/left-arrow-white.png": {
+      "bytes": 479,
+      "sha256": "c02c687b2aabe57ab3c1359d5b96cd72bbb9905dc17a71bec6e7fb67b61428e3"
+    },
+    "assets/vendor/miniwob/common/special/email-inbox/left-arrow.png": {
+      "bytes": 693,
+      "sha256": "38c89acb2dcc7e03c439e024520ca3e6c1a4352b46d82badbfbc22db2a6f248f"
+    },
+    "assets/vendor/miniwob/common/special/email-inbox/reply.png": {
+      "bytes": 1137,
+      "sha256": "e16ebf20e8cd8869c9ed6ac62049c6a4463950f2f3dfd8cc34a4f2ab01e25441"
+    },
+    "assets/vendor/miniwob/common/special/email-inbox/search.png": {
+      "bytes": 1183,
+      "sha256": "4a555920ee4706a0cc8d049af8c89fcb4bf810e20cf592f68adcd8b830e199c8"
+    },
+    "assets/vendor/miniwob/common/special/email-inbox/send.png": {
+      "bytes": 772,
+      "sha256": "93b59a3c739f01b53a24ccedcc121c2d2cfac355b91b254a126ec35771c1075f"
+    },
+    "assets/vendor/miniwob/common/special/email-inbox/star-clicked.png": {
+      "bytes": 1116,
+      "sha256": "923d28e1b4dcbe0bbcb14185ce1638ae81993beea1ba731936ea593727d76241"
+    },
+    "assets/vendor/miniwob/common/special/email-inbox/star.png": {
+      "bytes": 1760,
+      "sha256": "bdc602208c586f8ad33206870f47b76675d0b5ce7ff01abeb324e795ed865fb8"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/ajax-loader.gif": {
+      "bytes": 649,
+      "sha256": "1df4dd3c108e3e85e40180eb02a033f559e9b5bb722a7330fd9bb370c044d411"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/file.gif": {
+      "bytes": 109,
+      "sha256": "73173da9b90c8a89a390878c437e293c1046b05be4218e845c5914d50a06de24"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/folder-closed.gif": {
+      "bytes": 102,
+      "sha256": "42293492f245e078452625420435b56277b8b05e86382c27cf76826b1fadd97d"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/folder.gif": {
+      "bytes": 106,
+      "sha256": "dd387c11742e0ff12f4fd19dbe2915eb67a9bbb426359573f4b070d78b577894"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/minus.gif": {
+      "bytes": 58,
+      "sha256": "8f271434a3eb711dbb59497c3051fe5a7477c108d012e943a6df927c9bc3c076"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/plus.gif": {
+      "bytes": 61,
+      "sha256": "bb97306d4987562d7b29840f39332560f7eb11f500a5b55f8422a5ab1e32655c"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/treeview-black-line.gif": {
+      "bytes": 1010,
+      "sha256": "40ee9c3661fe961d676c156d6b8cf1d2028609518ad619cb7d4a2123c89cdc49"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/treeview-black.gif": {
+      "bytes": 381,
+      "sha256": "ba3c8525639f9b23d0127d41a45e7b8b321cf311328d556c34a27b57c0151e4a"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/treeview-default-line.gif": {
+      "bytes": 848,
+      "sha256": "0125011b7c87fd0eddaf5a8b8fd1dcd095442995124f04105a86761f292b4388"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/treeview-default.gif": {
+      "bytes": 387,
+      "sha256": "3a2019b92f90c4595c2272f1e6f3a0de62bf67943448354da427819ff4f755d1"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/treeview-famfamfam-line.gif": {
+      "bytes": 37,
+      "sha256": "0f9d325cb33d0ba162264bc4e7121b5c7f3f48b51ae160d14261ff17b076ecf6"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/treeview-famfamfam.gif": {
+      "bytes": 545,
+      "sha256": "1ab9f55e88e98546c9c8d00cc294ccff374d96e2cc23d828812e86f296f5acd1"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/treeview-gray-line.gif": {
+      "bytes": 1010,
+      "sha256": "cc3386d7c76bc04733ad4c1d0158cd86a9af5a627bbb669fc7fda3045e40ca44"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/treeview-gray.gif": {
+      "bytes": 394,
+      "sha256": "ba8223b715f3d1e8a9f7255b5923b1930eba88b8e95a2ee693bf331c48dba5a3"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/treeview-red-line.gif": {
+      "bytes": 1010,
+      "sha256": "fa320d187fe18519200603a5e52606558e04334b640935b386c40e95e269f63c"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/images/treeview-red.gif": {
+      "bytes": 394,
+      "sha256": "b6ef22d6864b3dfa19a11fdb61bf110ffa0cc0a73ca30bb8db942a43a6be9ef3"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/jquery.treeview.css": {
+      "bytes": 2590,
+      "sha256": "28dd4703ae60962dd3480e7a37a9ca4b432b33baa14dbfc3b202accc04942cec"
+    },
+    "assets/vendor/miniwob/common/special/navigate-tree/jquery.treeview.min.js": {
+      "bytes": 5433,
+      "sha256": "b2254d2d32275f5993020eccbf8c4a216446af5cbc4249f104c0cdb2ae4a9cb3"
+    },
+    "assets/vendor/miniwob/common/special/order-food/dairy.png": {
+      "bytes": 1445,
+      "sha256": "17d40744e3988e48f0adc85da6bced4c7e32c9b60248bae1a86c0e7f5198d755"
+    },
+    "assets/vendor/miniwob/common/special/order-food/gluten-free.png": {
+      "bytes": 2796,
+      "sha256": "c7d06d3cf1a290d0cdeaf0c4a1ce097547f17b28e9b240a5f6e81920ee46269a"
+    },
+    "assets/vendor/miniwob/common/special/order-food/meat.png": {
+      "bytes": 2718,
+      "sha256": "7b850a80cd44a91ffd1996ce3387b60d421e9f472ce40120723bdcb4b7515ea6"
+    },
+    "assets/vendor/miniwob/common/special/order-food/peanuts.png": {
+      "bytes": 1749,
+      "sha256": "bca724e5bd40e781e1ef216c2f2968914ac33bb68aa4b1a854e565577521e324"
+    },
+    "assets/vendor/miniwob/common/special/order-food/vegan.png": {
+      "bytes": 2644,
+      "sha256": "6939b7172f01b44c663cca852d6095c6f062fc26cd587681da883b08c544c975"
+    },
+    "assets/vendor/miniwob/common/special/search-engine/jquery.twbsPagination.min.js": {
+      "bytes": 6215,
+      "sha256": "201107d483fcdcfc15729d89ad2a79396b0bc3f8839a6b3b2e95e7af3f6db0fb"
+    },
+    "assets/vendor/miniwob/common/special/social-media/like-hover.png": {
+      "bytes": 1424,
+      "sha256": "9004c4a73690125bef7bf5e776f7b83fe1ea0483e84a3e7d3ea420f48d81a8c8"
+    },
+    "assets/vendor/miniwob/common/special/social-media/like.png": {
+      "bytes": 1307,
+      "sha256": "081ca9be70ab63ed5dab9d85ba237618347ec14862de1263dd5bda4e405be6e1"
+    },
+    "assets/vendor/miniwob/common/special/social-media/more-hover.png": {
+      "bytes": 695,
+      "sha256": "de705992298ad7e37f23da48e6f54f199f4c96222d88fab7afbf696cc81504ff"
+    },
+    "assets/vendor/miniwob/common/special/social-media/more.png": {
+      "bytes": 850,
+      "sha256": "042ccf7b9d9fd3ee4947dd8b5b00016b21e331df78292680c57af2893ffe8c04"
+    },
+    "assets/vendor/miniwob/common/special/social-media/reply-hover.png": {
+      "bytes": 1235,
+      "sha256": "306dd3f637969aa1484ee54cac8d25f4c1a3077a22981d085d3a3722a6680817"
+    },
+    "assets/vendor/miniwob/common/special/social-media/reply.png": {
+      "bytes": 1094,
+      "sha256": "638475aea2f7892e2f17268c9f0d5d726f8f447d616cbd3722945b80e528a276"
+    },
+    "assets/vendor/miniwob/common/special/social-media/retweet-hover.png": {
+      "bytes": 991,
+      "sha256": "680e7260366605c4c1a5c40ee974d6d7eda0a1f9a003a5755265ac085757d8db"
+    },
+    "assets/vendor/miniwob/common/special/social-media/retweet.png": {
+      "bytes": 1069,
+      "sha256": "221131c2bf5f301b4050e403573504e7c8b484cf5a14f9e81ff7d52c4b80df1d"
+    },
+    "assets/vendor/miniwob/common/special/social-media/share-hover.png": {
+      "bytes": 1508,
+      "sha256": "8520b8ff076a130679f5cd2d57c2d76d3af83fc45e49118d7fcb5714ae7867f3"
+    },
+    "assets/vendor/miniwob/common/special/social-media/share.png": {
+      "bytes": 1475,
+      "sha256": "596fcc3e8289818de8c67643e55d6cdcee41cd6c6054c526d1b4140fe0b1839c"
+    },
+    "assets/vendor/miniwob/common/special/text-editor/quill.min.js": {
+      "bytes": 199320,
+      "sha256": "86c95c548361e9963f42564fb712f5d76d562b2cca1299e22f885b937da9d90d"
+    },
+    "assets/vendor/miniwob/common/special/text-editor/quill.snow.css": {
+      "bytes": 22636,
+      "sha256": "f30ae6c12c7dbf1bbcad25904abfef7dc56340f482ed4ba71cd5d05bffefcbbb"
+    },
+    "assets/vendor/miniwob/common/special/tic-tac-toe/o.png": {
+      "bytes": 2803,
+      "sha256": "69cf28b082bcf4eeff65f9ceb4bc8600b6e2a7c6f8acdaceb30435b98137ec87"
+    },
+    "assets/vendor/miniwob/common/special/tic-tac-toe/x.png": {
+      "bytes": 993,
+      "sha256": "379da923f1a933c5b9b7766791f5a30151c978afdffb59670ef5fbc5944195e8"
+    },
+    "assets/vendor/miniwob/common/ui_utils.js": {
+      "bytes": 78175,
+      "sha256": "65301ee11f483df7e9114f3fac2e2938e8b56933fecbed36bce310e2d8d90368"
+    },
+    "assets/vendor/miniwob/core/core.css": {
+      "bytes": 1582,
+      "sha256": "795f8e686125b71e89a21ffe9e03406c6498f1e135175ba63321f3051a720042"
+    },
+    "assets/vendor/miniwob/core/core.js": {
+      "bytes": 22274,
+      "sha256": "db8f489ab947a3194b99e718bce5e59ea9aaf0a3c35410d8c9c79e56e6123d14"
+    },
+    "assets/vendor/miniwob/core/d3.v3.min.js": {
+      "bytes": 151665,
+      "sha256": "8ca4da6691fb142cd76283014e887e7c3e61e3b63eff9ebb08eeb5c51d56aafb"
+    },
+    "assets/vendor/miniwob/core/d3.v4.min.js": {
+      "bytes": 214204,
+      "sha256": "e502d1e29bf595d2473b7cc9abaa300a3898240fdfff0b8029d93e1f5a0da2cb"
+    },
+    "assets/vendor/miniwob/core/jquery-ui-hacks.js": {
+      "bytes": 337,
+      "sha256": "42ad1a94c796b11cf1556ae57a9cf705b74135bdc50807908da6ba0aa8e03610"
+    },
+    "assets/vendor/miniwob/core/jquery-ui/external/jquery/jquery.js": {
+      "bytes": 293430,
+      "sha256": "430f36f9b5f21aae8cc9dca6a81c4d3d84da5175eaedcf2fdc2c226302cb3575"
+    },
+    "assets/vendor/miniwob/core/jquery-ui/images/ui-icons_444444_256x240.png": {
+      "bytes": 7006,
+      "sha256": "eaf7c7ee2747275dda6c53e731a10db1a7b15f4fbb46e1b69d6bb2056bc9fd81"
+    },
+    "assets/vendor/miniwob/core/jquery-ui/images/ui-icons_555555_256x240.png": {
+      "bytes": 7074,
+      "sha256": "5d04051dfd9d2d740355404f98a683d1ec0feb2fca7d76e533c1a6e5ce92dd2e"
+    },
+    "assets/vendor/miniwob/core/jquery-ui/images/ui-icons_777620_256x240.png": {
+      "bytes": 4676,
+      "sha256": "9dbe4a0d03feed6f65eb2560a0a8b4ba4264545ee8fd31c1763a3b219d0328d6"
+    },
+    "assets/vendor/miniwob/core/jquery-ui/images/ui-icons_777777_256x240.png": {
+      "bytes": 7013,
+      "sha256": "e75b27211e16fcf94715168001bb7055ca376d46f928110ba3d0825232452e5a"
+    },
+    "assets/vendor/miniwob/core/jquery-ui/images/ui-icons_cc0000_256x240.png": {
+      "bytes": 4632,
+      "sha256": "02891575d4358e9edde3e42d94057f8e9f82a9d64376f71ee86cef149d30537e"
+    },
+    "assets/vendor/miniwob/core/jquery-ui/images/ui-icons_ffffff_256x240.png": {
+      "bytes": 6313,
+      "sha256": "b6b06deef2b924cc3835d63f4883d47882734a33e71b212d917a68cede3b8e9d"
+    },
+    "assets/vendor/miniwob/core/jquery-ui/jquery-ui.min.css": {
+      "bytes": 32076,
+      "sha256": "ac1c8f94750b39b12327a5d0c56fdf946dabfb6d91e5d2a202879ff9a5d67e29"
+    },
+    "assets/vendor/miniwob/core/jquery-ui/jquery-ui.min.js": {
+      "bytes": 253669,
+      "sha256": "28ce75d953678c4942df47a11707a15e3c756021cf89090e3e6aa7ad6b6971c3"
+    },
+    "assets/vendor/miniwob/core/jquery-ui/jquery-ui.structure.min.css": {
+      "bytes": 15548,
+      "sha256": "af16a2b37eda9ca527a4be50cd262d7be26722c9a41a62c6f9984a4a4664c153"
+    },
+    "assets/vendor/miniwob/core/jquery-ui/jquery-ui.theme.min.css": {
+      "bytes": 13849,
+      "sha256": "023ca8c9a46d9c6553cb0287fc8b31c6ee4f5c8d2ce02704d01ccf017f373e97"
+    },
+    "assets/vendor/miniwob/core/jscolor.min.js": {
+      "bytes": 29139,
+      "sha256": "08959f50278fde32dd50c54d52597ac90c77ee087d00a9974d1c6f45fee3ceba"
+    },
+    "assets/vendor/miniwob/core/record.js": {
+      "bytes": 5937,
+      "sha256": "525b2c460ab985233db9888a3f12d29ab108bc0c5f6a8d0c1d8ebea61e84c585"
+    },
+    "assets/vendor/miniwob/miniwob/book-flight-nodelay.html": {
+      "bytes": 12789,
+      "sha256": "2385f31793c9ae4bb63b44ad376b39da49187fe152161bee3a8b5a2701c2ec54"
+    },
+    "assets/vendor/miniwob/miniwob/form-sequence-3.html": {
+      "bytes": 2618,
+      "sha256": "a608dd832610cd8ebef6ba361000c56bb2bb42ea01e0d1da7e64cd2f5eb44a40"
+    },
+    "assets/vendor/miniwob/miniwob/multi-layouts.html": {
+      "bytes": 7037,
+      "sha256": "e3037895be59fc09cc9b24d9db59150e2f555911176a1ea588b645da5c612f67"
+    },
+    "assets/vendor/miniwob/miniwob/read-table-2.html": {
+      "bytes": 4061,
+      "sha256": "a0fdd070c5fda16e644b7962d5c3fe9553bd6ac1421edc8fd9e2b74f237430f3"
+    },
+    "baseline_prompts.json": {
+      "bytes": 2071,
+      "sha256": "b2a2cb8845c82e6a7f2592f4db88c9c5a9f8acca94e1e20225df0d15d72ec29f"
+    },
+    "configs/model_lock.json": {
+      "bytes": 6162,
+      "sha256": "b5a3c86fae33446f1283717a40a5fdd0bab411234794717db40e1afd79fcadb3"
+    },
+    "data/manifest.json": {
+      "bytes": 59983,
+      "sha256": "9848e2a6b310217b68e8e9fc14f121e41ee30383dc77614880c99399b568e454"
+    },
+    "data/public/practice.jsonl": {
+      "bytes": 315802,
+      "sha256": "bc36e4a5060da8498dce41d9479014d5c270a597e9f2c315a85dd95e38776c06"
+    },
+    "data/public/validation.jsonl": {
+      "bytes": 78564,
+      "sha256": "2ca64a5dc2d72fa77afec149316fc6a56550231fe0b47cbedeca127553bce51e"
+    },
+    "evidence/cpu_checks.json": {
+      "bytes": 1401,
+      "sha256": "3062a910a7d7e4e252893a2950dea781f5614a7df11852ed330dad97fb156927"
+    },
+    "evidence/official_static_checks.json": {
+      "bytes": 1021,
+      "sha256": "92a8c80eab8e4c84219d5071bde5e8ef897f3fddef3d59735a2fb2233b60d021"
+    },
+    "evidence/readiness.json": {
+      "bytes": 1461,
+      "sha256": "e82efa78bc7965c5643ed71e6a54b5b3391af13a34d5e9380a07673af7068df9"
+    },
+    "evidence/tokenizer_checks.json": {
+      "bytes": 8866,
+      "sha256": "d9154161b0160d964387acdef21502d6ac4d10df1f73044fdb3bbf3dfe1ae9aa"
+    },
+    "harbor/README_HARBOR.md": {
+      "bytes": 8791,
+      "sha256": "66c6601fa94c0e7626219214c71aafd8bee7fde8d4cc7e3c4243731c5ce6693d"
+    },
+    "harbor/environment/Dockerfile": {
+      "bytes": 2170,
+      "sha256": "03a428d6a2a38452c950dfe66e75933235aa6f8511424eaf00d30f610d08521b"
+    },
+    "harbor/environment/freeze_runtime.py": {
+      "bytes": 1119,
+      "sha256": "2a84e83868899234af50d93dceffa89fc4bfec585186a90ee860b3d661550775"
+    },
+    "harbor/environment/requirements-gpu.txt": {
+      "bytes": 261,
+      "sha256": "b83d2d63c63f70629a171b35e6a6f76523f0dad56e38e7c37939d14364bfd0e8"
+    },
+    "harbor/instruction.md": {
+      "bytes": 5628,
+      "sha256": "48c564bacd6c10591947467b74a4c9ed739aa1a50987fccf48b41d6c99526156"
+    },
+    "harbor/solution/solve.sh": {
+      "bytes": 685,
+      "sha256": "dd0b207f39c35f047134e51e5a77c1bbcd2b2aa1069eb3526295c0a1511c03aa"
+    },
+    "harbor/task.toml": {
+      "bytes": 1925,
+      "sha256": "d589d9684eecef08e8ab0405960aabab50fa8838e99ac877f338c7a71c7fa4b4"
+    },
+    "harbor/tests/evaluate.py": {
+      "bytes": 8976,
+      "sha256": "95894b4ec1f1f8c71fb2196e4513f6f56a3b9dcf85fc72ba7c073299a04fc143"
+    },
+    "harbor/tests/test.sh": {
+      "bytes": 300,
+      "sha256": "771ee4048fac3e4cad135c34c173952cca6541fe18b794d1c857a4034a7388ed"
+    },
+    "harbor/tests/test_verifier_unit.py": {
+      "bytes": 3306,
+      "sha256": "f17ddb2d8a422b36bf085a5f32bf6c6de26ecc9abec490724f9104d2da84d5a5"
+    },
+    "jevbench/__init__.py": {
+      "bytes": 93,
+      "sha256": "51411ac8ac0b935a81ddc364caae8f915b08c4fc592b081b6b414535eee30345"
+    },
+    "jevbench/__main__.py": {
+      "bytes": 376,
+      "sha256": "fb3ba2bf97ae6e09eb79b5304f5d504762d9b07955336b67752d9ed5ee10ab6a"
+    },
+    "jevbench/cli.py": {
+      "bytes": 7253,
+      "sha256": "2117b51ba54543b0f6c8e264ec4c132f3bde155a7159cf30e0a9036460dd863d"
+    },
+    "jevbench/contract.py": {
+      "bytes": 8822,
+      "sha256": "5e2600db150fdecc66011bcc9b4761482553830ffcac30abf9800ea339d7e959"
+    },
+    "jevbench/data.py": {
+      "bytes": 6110,
+      "sha256": "7b533280c82723d5c73501b42ab956a4eca43fde0c5124d54327def4def0e3e3"
+    },
+    "jevbench/evolution.py": {
+      "bytes": 8158,
+      "sha256": "9ed79b998727c293fdb1a89e5e027c498b1139f9f3dc29b0ce078e9c8c2f8ab3"
+    },
+    "jevbench/fifteen_solver.cpp": {
+      "bytes": 2421,
+      "sha256": "6981f0b3ba858a03cff9f65227c726df9671e6d679525d556af59ca80c2ebbee"
+    },
+    "jevbench/mines_puzzle.py": {
+      "bytes": 20097,
+      "sha256": "8fa77034f50b9a2e5367485c919bc9086cc5908174f0d74d0cc613f78444005e"
+    },
+    "jevbench/model.py": {
+      "bytes": 5564,
+      "sha256": "30bdf729932940df75dfe98afa97c4cf9b6a05ab182ecd9decae55b1644618f0"
+    },
+    "jevbench/push_maze.py": {
+      "bytes": 27365,
+      "sha256": "6d9670adc895aea75592ef59f338b4df6642c4514bfeb3eea3ec1b8d169c26b8"
+    },
+    "jevbench/runtime.py": {
+      "bytes": 6963,
+      "sha256": "38232e754dc48c85b975a63cb3cb54e96cecd30770717e8c5b402185f506596e"
+    },
+    "jevbench/verify.py": {
+      "bytes": 5212,
+      "sha256": "7da6fcc43444ceb2a47407188c81a52d9473f3ec9fd4085545d323f959ae3606"
+    },
+    "jevbench/visual_tasks.py": {
+      "bytes": 41732,
+      "sha256": "2aaafd55f5ea048afdd1a76747c7c9743b1b95185b156d013dcc8bba5c08d325"
+    },
+    "package_submission.py": {
+      "bytes": 2727,
+      "sha256": "548ed1f4ef6bcda1470ef237a2bf379283c88980ca88d76352de09a045a89d37"
+    },
+    "proposal.md": {
+      "bytes": 21960,
+      "sha256": "eb1cec609435c87fcde677776a681aad8159b87e0ec43cb569e78186267d23db"
+    },
+    "scripts/build_harbor_image.sh": {
+      "bytes": 1008,
+      "sha256": "40b4bb0c258ba95d720f0b754d58873b2eaad4f62619fcb5f439e436c7488588"
+    },
+    "scripts/export_candidate.py": {
+      "bytes": 1451,
+      "sha256": "9d70f795f7e518399d9d5ff16cdf3f491b685f7804bf81ee2b48b4a54dc35556"
+    },
+    "scripts/prepare_harbor.py": {
+      "bytes": 4222,
+      "sha256": "891c7a54ed4a8e96640eca048c675bbf9ae570edcb78fb5ae4583c7c77775449"
+    },
+    "scripts/run_gpu_validation.sh": {
+      "bytes": 2021,
+      "sha256": "a754ea232a7d138586c02b6e4f223eda378aea1865b774570a41a6604776ff2b"
+    },
+    "scripts/trajectory_controller.py": {
+      "bytes": 38391,
+      "sha256": "2c9e77fdf94ef53bbf2e26bca1fadb95fa6ddc4b200b5014acb27a3f47c5d9fd"
+    },
+    "tests/fixtures/fifteen-puzzle-hard.json": {
+      "bytes": 3959,
+      "sha256": "3699f07ba5471294dd014eedff06ab9a8b14515feab240c8d0b54dd0b7ee040a"
+    },
+    "tests/fixtures/fifteen-puzzle-harder.json": {
+      "bytes": 4289,
+      "sha256": "9299436bcf90080e6dccd9b274a1840c063d32e64ae3e95040186a173765d37f"
+    },
+    "tests/fixtures/minesweeper-hard.json": {
+      "bytes": 5249,
+      "sha256": "c0705d092ddac6894cf5f83a5bafda9b5a358e499d96b51516175fbb432c2471"
+    },
+    "tests/fixtures/minesweeper-harder.json": {
+      "bytes": 7443,
+      "sha256": "f6eb8e2e2ae90ae4844f492e207091a1260d48e4b7989a3c4d656ba758344c15"
+    },
+    "tests/test_mines_puzzle.py": {
+      "bytes": 6684,
+      "sha256": "7360151c2f519e6ba85c7ba5affe1c0ada6242c4e56e59faad560eaa9cc4f2e1"
+    },
+    "tests/test_push_maze.py": {
+      "bytes": 6355,
+      "sha256": "8d64ada3e237473c2121d3261107f482e1e13af826b6453b4a89289777451a96"
+    },
+    "tests/test_runtime.py": {
+      "bytes": 20609,
+      "sha256": "152610cf2f99528f5f8f0dbb7ef9ecf55d387d3340f1232e059390ca18433331"
+    },
+    "tests/test_visual_tasks.py": {
+      "bytes": 7484,
+      "sha256": "d118c68448214fc7a65a187070c227d1fc56246674a1ddb197abb1e4cdf65074"
+    }
+  },
+  "model_weights_included": false,
+  "private_judge_assets_included": false,
+  "schema_version": 1,
+  "status": "implemented_cpu_validated_gpu_pending"
+}

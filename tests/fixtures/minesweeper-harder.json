@@ -1,0 +1,500 @@
+{
+  "certificate": {
+    "algorithm": "complete_component_enumeration_with_global_mine_count",
+    "candidate_attempt": 4406,
+    "global_stages": 4,
+    "max_frontier": 20,
+    "reference_atomic_attempts": 39,
+    "reference_calls": 12,
+    "stages": [
+      {
+        "frontier": 18,
+        "revealed": 12,
+        "safe": [
+          33
+        ],
+        "visible_sha256": "40d34767b9233f82b4370e887c3185475f867cf4a70db46f62b6c7c584d6a20e"
+      },
+      {
+        "frontier": 19,
+        "revealed": 13,
+        "safe": [
+          25,
+          34,
+          43
+        ],
+        "visible_sha256": "8bc7ab6379073fb92592c28ef8c414a669d2c1ee420a016f676bcb71fe607b97"
+      },
+      {
+        "frontier": 20,
+        "revealed": 25,
+        "safe": [
+          20,
+          74,
+          75,
+          76
+        ],
+        "visible_sha256": "90c978a122b3c79d36d9068253a1a1585da6da02ad6ce96443cdee3e704bd7ef"
+      },
+      {
+        "frontier": 11,
+        "revealed": 53,
+        "safe": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          14,
+          79,
+          80
+        ],
+        "visible_sha256": "d79962f56a9086e50ea6366629e4f277d3b182831d0ae2f4233c32f597e27068"
+      }
+    ]
+  },
+  "data": {
+    "initial": 40,
+    "mines": [
+      3,
+      11,
+      13,
+      15,
+      16,
+      21,
+      22,
+      38,
+      42,
+      47,
+      60,
+      65,
+      68,
+      69,
+      70,
+      71
+    ],
+    "n": 9
+  },
+  "family": "minesweeper",
+  "goal": "Reveal every non-mine cell without clicking a mine. Total mines and initial clues are visible.",
+  "reference_actions": [
+    {
+      "tool": "click",
+      "x": 525,
+      "y": 385
+    },
+    {
+      "tool": "click",
+      "x": 595,
+      "y": 315
+    },
+    {
+      "tool": "click",
+      "x": 595,
+      "y": 385
+    },
+    {
+      "tool": "click",
+      "x": 595,
+      "y": 455
+    },
+    {
+      "tool": "click",
+      "x": 665,
+      "y": 385
+    },
+    {
+      "tool": "click",
+      "x": 665,
+      "y": 455
+    },
+    {
+      "tool": "click",
+      "x": 595,
+      "y": 525
+    },
+    {
+      "tool": "click",
+      "x": 665,
+      "y": 525
+    },
+    {
+      "tool": "click",
+      "x": 455,
+      "y": 315
+    },
+    {
+      "tool": "click",
+      "x": 315,
+      "y": 665
+    },
+    {
+      "tool": "click",
+      "x": 245,
+      "y": 315
+    },
+    {
+      "tool": "click",
+      "x": 245,
+      "y": 735
+    },
+    {
+      "tool": "click",
+      "x": 315,
+      "y": 735
+    },
+    {
+      "tool": "click",
+      "x": 385,
+      "y": 735
+    },
+    {
+      "tool": "click",
+      "x": 245,
+      "y": 385
+    },
+    {
+      "tool": "click",
+      "x": 245,
+      "y": 595
+    },
+    {
+      "tool": "click",
+      "x": 455,
+      "y": 735
+    },
+    {
+      "tool": "click",
+      "x": 175,
+      "y": 315
+    },
+    {
+      "tool": "click",
+      "x": 175,
+      "y": 385
+    },
+    {
+      "tool": "click",
+      "x": 175,
+      "y": 455
+    },
+    {
+      "tool": "click",
+      "x": 105,
+      "y": 315
+    },
+    {
+      "tool": "click",
+      "x": 105,
+      "y": 385
+    },
+    {
+      "tool": "click",
+      "x": 105,
+      "y": 455
+    },
+    {
+      "tool": "click",
+      "x": 105,
+      "y": 525
+    },
+    {
+      "tool": "click",
+      "x": 245,
+      "y": 175
+    },
+    {
+      "tool": "click",
+      "x": 315,
+      "y": 245
+    },
+    {
+      "tool": "click",
+      "x": 385,
+      "y": 665
+    },
+    {
+      "tool": "click",
+      "x": 385,
+      "y": 175
+    },
+    {
+      "tool": "click",
+      "x": 455,
+      "y": 175
+    },
+    {
+      "tool": "click",
+      "x": 525,
+      "y": 175
+    },
+    {
+      "tool": "click",
+      "x": 595,
+      "y": 175
+    },
+    {
+      "tool": "click",
+      "x": 665,
+      "y": 175
+    },
+    {
+      "tool": "click",
+      "x": 455,
+      "y": 245
+    },
+    {
+      "tool": "click",
+      "x": 665,
+      "y": 245
+    },
+    {
+      "tool": "click",
+      "x": 525,
+      "y": 315
+    },
+    {
+      "tool": "click",
+      "x": 525,
+      "y": 525
+    },
+    {
+      "tool": "click",
+      "x": 525,
+      "y": 735
+    },
+    {
+      "tool": "click",
+      "x": 595,
+      "y": 735
+    },
+    {
+      "tool": "click",
+      "x": 665,
+      "y": 735
+    }
+  ],
+  "reference_batches": [
+    [
+      {
+        "tool": "click",
+        "x": 525,
+        "y": 385
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 595,
+        "y": 315
+      },
+      {
+        "tool": "click",
+        "x": 595,
+        "y": 385
+      },
+      {
+        "tool": "click",
+        "x": 595,
+        "y": 455
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 665,
+        "y": 385
+      },
+      {
+        "tool": "click",
+        "x": 665,
+        "y": 455
+      },
+      {
+        "tool": "click",
+        "x": 595,
+        "y": 525
+      },
+      {
+        "tool": "click",
+        "x": 665,
+        "y": 525
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 455,
+        "y": 315
+      },
+      {
+        "tool": "click",
+        "x": 315,
+        "y": 665
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 245,
+        "y": 315
+      },
+      {
+        "tool": "click",
+        "x": 245,
+        "y": 735
+      },
+      {
+        "tool": "click",
+        "x": 315,
+        "y": 735
+      },
+      {
+        "tool": "click",
+        "x": 385,
+        "y": 735
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 245,
+        "y": 385
+      },
+      {
+        "tool": "click",
+        "x": 245,
+        "y": 595
+      },
+      {
+        "tool": "click",
+        "x": 455,
+        "y": 735
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 175,
+        "y": 315
+      },
+      {
+        "tool": "click",
+        "x": 175,
+        "y": 385
+      },
+      {
+        "tool": "click",
+        "x": 175,
+        "y": 455
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 105,
+        "y": 315
+      },
+      {
+        "tool": "click",
+        "x": 105,
+        "y": 385
+      },
+      {
+        "tool": "click",
+        "x": 105,
+        "y": 455
+      },
+      {
+        "tool": "click",
+        "x": 105,
+        "y": 525
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 245,
+        "y": 175
+      },
+      {
+        "tool": "click",
+        "x": 315,
+        "y": 245
+      },
+      {
+        "tool": "click",
+        "x": 385,
+        "y": 665
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 385,
+        "y": 175
+      },
+      {
+        "tool": "click",
+        "x": 455,
+        "y": 175
+      },
+      {
+        "tool": "click",
+        "x": 525,
+        "y": 175
+      },
+      {
+        "tool": "click",
+        "x": 595,
+        "y": 175
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 665,
+        "y": 175
+      },
+      {
+        "tool": "click",
+        "x": 455,
+        "y": 245
+      },
+      {
+        "tool": "click",
+        "x": 665,
+        "y": 245
+      },
+      {
+        "tool": "click",
+        "x": 525,
+        "y": 315
+      }
+    ],
+    [
+      {
+        "tool": "click",
+        "x": 525,
+        "y": 525
+      },
+      {
+        "tool": "click",
+        "x": 525,
+        "y": 735
+      },
+      {
+        "tool": "click",
+        "x": 595,
+        "y": 735
+      },
+      {
+        "tool": "click",
+        "x": 665,
+        "y": 735
+      }
+    ]
+  ],
+  "seed": 123,
+  "tier": "harder"
+}

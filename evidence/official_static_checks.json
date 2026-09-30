@@ -1,0 +1,18 @@
+{
+  "upstream_revision": "57d9ea7127f91bdde94f89ae47d95cf1ad374836",
+  "target": "jev-agent/harbor (source adapter, not a built/private task bundle)",
+  "executed_at_utc": "2026-09-30T14:16:09.350055+00:00",
+  "platform": "macOS local; official shell scripts and Python snippets unmodified",
+  "passed": 19,
+  "total": 20,
+  "harbor_validator_run": false,
+  "gpu_or_docker_run": false,
+  "scope_note": "These scripts are the general tasks/** static workflow. The agent timeout check enforces 5h; this RSI adapter intentionally retains the agreed 24h outer trajectory. Official pinned rsi-tasks include longer agent timeouts, so this generic failure is reported, not suppressed. RSI-specific runtime validation remains pending.",
+  "failed_checks": [
+    {
+      "script": "check-task-timeout.sh",
+      "exit_code": 1
+    }
+  ],
+  "staged_third_party_canary_compatibility": "General recursive canary check may reject immutable third-party sources in tests/trusted; do not mutate pinned upstream sources to conceal it."
+}

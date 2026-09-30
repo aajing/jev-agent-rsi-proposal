@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-09-30T14:16:32.266004+00:00",
+  "platform": "macOS-14.4-arm64-arm-64bit",
+  "model_inference_executed": false,
+  "model_scores": null,
+  "pytest": {
+    "command": "JEV_CHROMIUM_EXECUTABLE=<Chrome 154.0.8037.58> .venv/bin/python -m pytest tests harbor/tests/test_verifier_unit.py -q",
+    "passed": 112,
+    "subtests_passed": 4,
+    "seconds": 28.99
+  },
+  "trajectory_controller": {
+    "tests": 9,
+    "passed": true,
+    "seconds": 1.772,
+    "real_process_deadline_tests": true,
+    "model_calls": 0
+  },
+  "data_materialization": {
+    "practice": 128,
+    "validation": 32,
+    "hidden": 96,
+    "all_certified_and_reference_replayed": true,
+    "same_types_and_two_strata": true,
+    "browser": "macOS Google Chrome 154.0.8037.58",
+    "target_linux_chromium_replay": "pending"
+  },
+  "tokenizer_evidence": "tokenizer_checks.json",
+  "harbor_staging": {
+    "public_tree": "passed_128_32_without_hidden",
+    "private_tree": "passed_128_32_96_owner_only",
+    "docker_build": "not_run",
+    "official_validator": "not_run"
+  },
+  "original_qwen_task": {
+    "all_manifest_sources": "unchanged",
+    "zip_sha256": "d29b8ca7da596f044ff841964e1704971843ef9e28490238653d4bd5c2090279"
+  },
+  "fixed_chromium_download": {
+    "version": "125.0.6422.26",
+    "playwright_build": "1117",
+    "status": "failed_all_three_CDN_endpoints",
+    "used_as_test_browser": false
+  }
+}

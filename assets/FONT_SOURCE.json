@@ -1,0 +1,14 @@
+{
+  "upstream": "https://github.com/matplotlib/matplotlib/tree/v3.10.8/lib/matplotlib/mpl-data/fonts/ttf",
+  "release": "v3.10.8",
+  "files": {
+    "DejaVuSans.ttf": {
+      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "bytes": 756072
+    },
+    "LICENSE_DEJAVU": {
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e",
+      "bytes": 4816
+    }
+  }
+}
