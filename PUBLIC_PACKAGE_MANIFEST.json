@@ -549,8 +549,8 @@
       "sha256": "548ed1f4ef6bcda1470ef237a2bf379283c88980ca88d76352de09a045a89d37"
     },
     "proposal.md": {
-      "bytes": 23735,
-      "sha256": "9facb3f15da57e55e0971e4996f03de50c79b54cf03815b0fbe1df983089ff48"
+      "bytes": 23737,
+      "sha256": "1e0f7cdc24a8ce67ba377499d1007dc9543a8ab740088eb851da3b7cd88ce8a1"
     },
     "scripts/build_harbor_image.sh": {
       "bytes": 1008,

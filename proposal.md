@@ -1,4 +1,4 @@
-# JEV-Agent 的自进化
+# JEV-Agent Self-Evolution
 
 | Section | Field | Proposal |
 | --- | --- | --- |
