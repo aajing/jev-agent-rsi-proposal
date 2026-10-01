@@ -94,12 +94,14 @@ the tests mount. Per-episode output and child stderr are captured and discarded;
 only approved aggregates reach `/logs/verifier`. Infrastructure failures leave
 no `reward.txt`.
 
-The Harness must independently guarantee that `/tests` and its trusted manifests
-cannot be written or read during Work, that the underlying interpreter/container
-is controlled, and that no Work process runs concurrently with Judge. Python
-`-I`, file permissions and hash checks do not themselves form a security boundary
-against an unrestricted host/root adversary. These integration properties need
-real official-Harness validation before an isolation claim can be made.
+The existing Harness pauses Work, snapshots it and injects task-owned tests into
+Judge-only `/tests` before invoking `/tests/test.sh`. Judge inherits the Work
+snapshot, including its interpreter and system libraries; `/tests` is a fresh
+tmpfs injection, not a read-only or root-proof mount. Python `-I`, file permissions
+and hash checks do not form a security boundary against unrestricted shared-root
+tampering or independently attest Work history. Integration must be validated
+within this current platform model; no future isolation capability is a proposal
+prerequisite.
 
 The official pinned Harness has a persistent submission allocator. Its run must
 explicitly use `--max-submissions 12`, for example:
@@ -112,8 +114,9 @@ rsi-harness run /absolute/private-harbor-task \
 These names are verified against the pinned CLI and submission manager, not
 invented task.toml keys. The Harness's 24-hour timeout is the agent deadline; it
 may drain an already-started Judge afterward, up to the verifier timeout. Do not
-call that a strict 24-hour end-to-end stop. Use the separate task-owner trajectory
-controller where an absolute deadline and durable external receipt are required.
+call that a strict 24-hour end-to-end stop. The separate task-owner trajectory
+controller is optional standalone owner tooling; it is not part of the official
+proposal's enforcement assumptions and does not provide a Harness attestation service.
 
 For standalone owner-controlled Judge calls,
 `tests/private/judge_ledger.jsonl` must be persisted by the task owner for

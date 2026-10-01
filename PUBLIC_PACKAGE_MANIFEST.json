@@ -21,8 +21,8 @@
       "sha256": "beffe4ca2de1551f3c93d82a054650aba898b0df1ea1a0989b77f87fa5d200cb"
     },
     "SUBMISSION.md": {
-      "bytes": 3545,
-      "sha256": "259a47bd44d359bdcb5e480e3a07328d127dba5b6f5bbb2ffea7d6100362da2e"
+      "bytes": 3683,
+      "sha256": "8998aad7f33f0665b14c081f1c6236415006acbc406a7194c6b6419072dc1900"
     },
     "TASK_SPEC.md": {
       "bytes": 17044,
@@ -453,8 +453,8 @@
       "sha256": "d9154161b0160d964387acdef21502d6ac4d10df1f73044fdb3bbf3dfe1ae9aa"
     },
     "harbor/README_HARBOR.md": {
-      "bytes": 8791,
-      "sha256": "66c6601fa94c0e7626219214c71aafd8bee7fde8d4cc7e3c4243731c5ce6693d"
+      "bytes": 8976,
+      "sha256": "ba62b37122a60f4403a24f0dc2cd6ccfd6bd50ede9a2c1effa45c7fee12bbc5d"
     },
     "harbor/environment/Dockerfile": {
       "bytes": 2170,
@@ -549,8 +549,8 @@
       "sha256": "548ed1f4ef6bcda1470ef237a2bf379283c88980ca88d76352de09a045a89d37"
     },
     "proposal.md": {
-      "bytes": 21960,
-      "sha256": "eb1cec609435c87fcde677776a681aad8159b87e0ec43cb569e78186267d23db"
+      "bytes": 23735,
+      "sha256": "9facb3f15da57e55e0971e4996f03de50c79b54cf03815b0fbe1df983089ff48"
     },
     "scripts/build_harbor_image.sh": {
       "bytes": 1008,
