@@ -19,13 +19,15 @@
 - [baseline_prompts.json](baseline_prompts.json)：初始 policy、evolver 和 memory。
 - `configs/model_lock.json`：选定模型版本及公开资产的来源哈希。
 
-这些文件与正文已整理为 `dist/jev-agent-topic-submission.zip`。交付方式沿用上一题：题目正文和公开附件随提案提供，私有出题材料留待官方私有任务构建环节交付。
+这些文件与正文整理为 `dist/jev-agent-topic-submission.zip`。题目正文、实现附件及完整冻结评测构建资产均通过现有公开仓库交付；评测资产的下载和部署说明见 [EVALUATION_ASSETS.md](EVALUATION_ASSETS.md)，无需等待另一个私有交付渠道。
 
-- 题目附件：`dist/jev-agent-topic-submission.zip`，包含正文和以上题目定义文件。
-- 公开实现补充附件：`dist/jev-agent-proposal.zip`，包含正文引用的代码、公开数据、配置和已有实现证据，拟一并提供给审核方；提供这些已有材料不要求先运行模型测试。
-- 私有材料：`data/private/` 不进入公开附件或 Discussion，在后续官方私有任务构建环节交付。
+- 题目附件：`dist/jev-agent-topic-submission.zip`，包含正文、以上题目定义文件及 `EVALUATION_ASSETS.md` 交付说明。
+- 公开实现补充附件：`dist/jev-agent-proposal.zip`，包含正文引用的代码、练习与验证数据、配置和已有实现证据，另含原始四个 `data/private/*` 文件、`EVALUATION_ASSETS.md` 与 `EVALUATION_ASSETS_MANIFEST.json`；提供这些已有材料不要求先运行模型测试。
+- [评测构建资产附件](dist/jev-agent-evaluation-assets.zip)：四个原始冻结文件公开于 `evaluation-assets/data/private/`；ZIP 内保持 `data/private/` 路径并附 `EVALUATION_ASSETS_MANIFEST.json`。资产以原始字节、未加密形式提供，包含冻结评测记录、种子和出题库。
 
-两个附件已发布在公开仓库 `https://github.com/aajing/jev-agent-rsi-proposal`。正文中的相对代码路径对应公开实现补充附件内的文件；官方 Discussion 正文提供固定提交版本的源代码与附件链接。
+附件发布位置为 [公开仓库 aajing/jev-agent-rsi-proposal](https://github.com/aajing/jev-agent-rsi-proposal)。正文中的相对代码路径对应公开实现补充附件内的文件；官方 Discussion 正文提供固定提交版本的源代码与附件链接。
+
+公开资产用于任务构建；正式 Work 镜像和工作区必须排除 `evaluation-assets/`、`data/private/`、`dist/` 和 `.git/`，冻结评测记录仅进入 Judge-only tests 注入。“隐藏”指运行时从 Work 和逐题反馈中隔离，不表示资产在公开发布后仍保密。原始数据与代码保持原字节，文件内保留的历史“不公开”政策文字已由贡献者本次明确公开授权取代。
 
 ## 提交渠道
 

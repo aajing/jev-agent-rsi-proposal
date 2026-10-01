@@ -1,0 +1,6448 @@
+[
+  {
+    "family": "sokoban",
+    "tier": "hard",
+    "seed": 0,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "boxes": [
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "player": [
+        1,
+        2
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 36,
+      "minimum_pushes": 16,
+      "exact_move_states": 6571,
+      "exact_push_states": 1462,
+      "goal_lock_unsolvable": true,
+      "goal_lock_states": 686,
+      "deadlock_witness": {
+        "path": [
+          1,
+          3,
+          3,
+          0,
+          3,
+          3
+        ],
+        "dead_square": [
+          6,
+          2
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 36,
+      "reference_decision_calls": 9,
+      "board_sha256": "ec059753893903dc1a6de13901850658111cc540321444ea19ad30c5fa71d7c4"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "hard",
+    "seed": 1,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "boxes": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "player": [
+        1,
+        2
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 41,
+      "minimum_pushes": 16,
+      "exact_move_states": 5401,
+      "exact_push_states": 1477,
+      "goal_lock_unsolvable": true,
+      "goal_lock_states": 686,
+      "deadlock_witness": {
+        "path": [
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          0,
+          0,
+          0,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          0
+        ],
+        "dead_square": [
+          1,
+          2
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 41,
+      "reference_decision_calls": 11,
+      "board_sha256": "f1d395713c9e64c7a423e112d0417711c149fd211ab5511bb532a949ae741398"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "hard",
+    "seed": 2,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          4,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "boxes": [
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "player": [
+        1,
+        1
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 36,
+      "minimum_pushes": 12,
+      "exact_move_states": 2621,
+      "exact_push_states": 724,
+      "goal_lock_unsolvable": false,
+      "goal_lock_states": 724,
+      "deadlock_witness": {
+        "path": [
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3
+        ],
+        "dead_square": [
+          6,
+          4
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 36,
+      "reference_decision_calls": 9,
+      "board_sha256": "52db7fe7ec0caa0d984a309b06454ee36c0987c105840355ca9225fb9687fcb3"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "hard",
+    "seed": 3,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          4,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "boxes": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "player": [
+        1,
+        1
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 36,
+      "minimum_pushes": 13,
+      "exact_move_states": 4189,
+      "exact_push_states": 1306,
+      "goal_lock_unsolvable": false,
+      "goal_lock_states": 1270,
+      "deadlock_witness": {
+        "path": [
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3
+        ],
+        "dead_square": [
+          6,
+          4
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 36,
+      "reference_decision_calls": 9,
+      "board_sha256": "dd3259b8932dfa0cb591a7c905a01467e2458e7b55b37aadff90d7df1180c44e"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "hard",
+    "seed": 4,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "boxes": [
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "player": [
+        1,
+        2
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 37,
+      "minimum_pushes": 14,
+      "exact_move_states": 5191,
+      "exact_push_states": 984,
+      "goal_lock_unsolvable": false,
+      "goal_lock_states": 943,
+      "deadlock_witness": {
+        "path": [
+          1,
+          3,
+          3,
+          0,
+          2
+        ],
+        "dead_square": [
+          1,
+          2
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 37,
+      "reference_decision_calls": 10,
+      "board_sha256": "31a490b13a1be9ba74558a6812ab355ad413936622c9548be199cca21a5288a3"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "hard",
+    "seed": 5,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "boxes": [
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "player": [
+        1,
+        2
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 36,
+      "minimum_pushes": 13,
+      "exact_move_states": 5302,
+      "exact_push_states": 978,
+      "goal_lock_unsolvable": false,
+      "goal_lock_states": 940,
+      "deadlock_witness": {
+        "path": [
+          1,
+          3,
+          3,
+          0,
+          2
+        ],
+        "dead_square": [
+          1,
+          2
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 36,
+      "reference_decision_calls": 9,
+      "board_sha256": "9519ea3e63826396fbd6ab60df2609658b516709ee2b399f1cab1aa767efa53c"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "hard",
+    "seed": 6,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "boxes": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "player": [
+        1,
+        6
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 36,
+      "minimum_pushes": 14,
+      "exact_move_states": 4822,
+      "exact_push_states": 1320,
+      "goal_lock_unsolvable": false,
+      "goal_lock_states": 1146,
+      "deadlock_witness": {
+        "path": [
+          3,
+          0,
+          3,
+          0,
+          2
+        ],
+        "dead_square": [
+          1,
+          4
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 36,
+      "reference_decision_calls": 9,
+      "board_sha256": "ba09a4fe72271e8ed8edafe4cfd814ede87933f16f5a6db89770db323cc7116a"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "hard",
+    "seed": 7,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "boxes": [
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "player": [
+        1,
+        1
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 37,
+      "minimum_pushes": 13,
+      "exact_move_states": 1902,
+      "exact_push_states": 450,
+      "goal_lock_unsolvable": true,
+      "goal_lock_states": 13,
+      "deadlock_witness": {
+        "path": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "dead_square": [
+          6,
+          1
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 37,
+      "reference_decision_calls": 10,
+      "board_sha256": "ff8f448268a630ef1989cb4728e3f1a1cd9c51ca1af0a131b4947e6ec0fa040a"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "harder",
+    "seed": 8,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "boxes": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "player": [
+        1,
+        6
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 58,
+      "minimum_pushes": 20,
+      "exact_move_states": 17633,
+      "exact_push_states": 6344,
+      "goal_lock_unsolvable": true,
+      "goal_lock_states": 68,
+      "deadlock_witness": {
+        "path": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "dead_square": [
+          1,
+          6
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 58,
+      "reference_decision_calls": 15,
+      "board_sha256": "52aac371fc96fc3c385ac14ad51a66081b078fd5267b3ac41b1ed4395057fdc3"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "harder",
+    "seed": 9,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "boxes": [
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "player": [
+        1,
+        1
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 61,
+      "minimum_pushes": 19,
+      "exact_move_states": 19332,
+      "exact_push_states": 6343,
+      "goal_lock_unsolvable": true,
+      "goal_lock_states": 67,
+      "deadlock_witness": {
+        "path": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "dead_square": [
+          1,
+          6
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 61,
+      "reference_decision_calls": 16,
+      "board_sha256": "5e8430c4e2041c7e29000704f078ce0eba21e6030a90d95fbfc3e4399d0b404b"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "harder",
+    "seed": 10,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "boxes": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "player": [
+        1,
+        5
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 59,
+      "minimum_pushes": 21,
+      "exact_move_states": 4548,
+      "exact_push_states": 1588,
+      "goal_lock_unsolvable": true,
+      "goal_lock_states": 1,
+      "deadlock_witness": {
+        "path": [
+          1,
+          3,
+          3,
+          0,
+          3,
+          3
+        ],
+        "dead_square": [
+          6,
+          5
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 59,
+      "reference_decision_calls": 15,
+      "board_sha256": "f54546fd1cdf390c8da3eba4a517967f011cb174ea2d0f8ef69b2e227416a6c3"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "harder",
+    "seed": 11,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "boxes": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "player": [
+        6,
+        5
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 56,
+      "minimum_pushes": 18,
+      "exact_move_states": 4189,
+      "exact_push_states": 1584,
+      "goal_lock_unsolvable": true,
+      "goal_lock_states": 875,
+      "deadlock_witness": {
+        "path": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          2,
+          2,
+          1,
+          3,
+          3
+        ],
+        "dead_square": [
+          6,
+          2
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 56,
+      "reference_decision_calls": 14,
+      "board_sha256": "10f47c7ca3828bf193298e4fedf4a9366652db4c3a5ed2057ef45e6ba48e1e5e"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "harder",
+    "seed": 12,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "boxes": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "player": [
+        2,
+        1
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 61,
+      "minimum_pushes": 20,
+      "exact_move_states": 5107,
+      "exact_push_states": 1326,
+      "goal_lock_unsolvable": true,
+      "goal_lock_states": 122,
+      "deadlock_witness": {
+        "path": [
+          3,
+          1,
+          3,
+          1
+        ],
+        "dead_square": [
+          4,
+          4
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 61,
+      "reference_decision_calls": 16,
+      "board_sha256": "cfc4c42496de21a20b84800050400a409e052fdefb00b4921130b91ab7100914"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "harder",
+    "seed": 13,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "boxes": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "player": [
+        2,
+        1
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 71,
+      "minimum_pushes": 20,
+      "exact_move_states": 18491,
+      "exact_push_states": 4417,
+      "goal_lock_unsolvable": true,
+      "goal_lock_states": 2224,
+      "deadlock_witness": {
+        "path": [
+          3,
+          1,
+          3,
+          1
+        ],
+        "dead_square": [
+          4,
+          4
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 71,
+      "reference_decision_calls": 18,
+      "board_sha256": "7d669f0c1e655189669b9bb9e3d477a00526a3dffad4cc849ead872bf61e363b"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "harder",
+    "seed": 14,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "boxes": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "player": [
+        1,
+        6
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 60,
+      "minimum_pushes": 18,
+      "exact_move_states": 21797,
+      "exact_push_states": 4810,
+      "goal_lock_unsolvable": true,
+      "goal_lock_states": 34,
+      "deadlock_witness": {
+        "path": [
+          3,
+          3,
+          3,
+          0,
+          3
+        ],
+        "dead_square": [
+          6,
+          5
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 60,
+      "reference_decision_calls": 15,
+      "board_sha256": "f8e532fba6e1cf7147dde9e8b6765934759b8fa40a43d4f9c5c69c02bbeb5d68"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      }
+    ]
+  },
+  {
+    "family": "sokoban",
+    "tier": "harder",
+    "seed": 15,
+    "goal": "Push every box onto a goal. No pulling, undo, or reset.",
+    "data": {
+      "width": 8,
+      "height": 8,
+      "floor": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "goals": [
+        [
+          6,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "boxes": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "player": [
+        1,
+        1
+      ]
+    },
+    "certificate": {
+      "version": 1,
+      "minimum_moves": 68,
+      "minimum_pushes": 18,
+      "exact_move_states": 1935,
+      "exact_push_states": 953,
+      "goal_lock_unsolvable": true,
+      "goal_lock_states": 715,
+      "deadlock_witness": {
+        "path": [
+          1,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          1,
+          1,
+          1,
+          2,
+          1
+        ],
+        "dead_square": [
+          5,
+          6
+        ],
+        "proof": "box cannot reach any goal even with all other boxes removed"
+      },
+      "reference_atomic_actions": 68,
+      "reference_decision_calls": 17,
+      "board_sha256": "b9a692ec2a791fdf307f66bfc680f1ea1554f9fbdaae60d26d2dfc975773ed17"
+    },
+    "reference_actions": [
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "left"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "up"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "right"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      },
+      {
+        "tool": "press",
+        "key": "down"
+      }
+    ]
+  }
+]

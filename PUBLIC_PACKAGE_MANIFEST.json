@@ -1,32 +1,41 @@
 {
+  "evaluation_asset_distribution": "Public and unencrypted, as explicitly authorized; exclude from Work at runtime",
   "files": {
     ".gitignore": {
       "bytes": 139,
       "sha256": "1fe2ac69536c5745ed963dbc4e4392e32e5984f0fbc028e8abe6b5ee053f2e63"
     },
+    "EVALUATION_ASSETS.md": {
+      "bytes": 3939,
+      "sha256": "6dc06a94a901cf2dcdae9d66e38c655aa15438bee0b7d1465d6b2fcabad58c24"
+    },
+    "EVALUATION_ASSETS_MANIFEST.json": {
+      "bytes": 2098,
+      "sha256": "116e6df08bdec4110416e547e235371748b501560804a6c06bd9b6fc7d7550e5"
+    },
     "GAME_TASKS.md": {
-      "bytes": 9329,
-      "sha256": "0fbede8ec819063e1712e85029e9c379274fb98f70183267ce31e3955a717f50"
+      "bytes": 9951,
+      "sha256": "399e7b799aa1e2d902e4d8a2839a7b199447fc91a77fcf085f768edd141ac64a"
     },
     "IMPLEMENTATION_STATUS.md": {
-      "bytes": 3023,
-      "sha256": "73a99bea564d9fbd536811fc7cfcf770f387fd8fffea918ada9f52bcd57ba0d2"
+      "bytes": 3732,
+      "sha256": "73af2e5bc55ff154040d39bf7da0312a9e36795474c39a454db5b4715bb62f07"
     },
     "README.md": {
-      "bytes": 2613,
-      "sha256": "dc6ef40a1743450a097864130041dc55331b24d333f2ac10f1ebe7f6cf7c3b9f"
+      "bytes": 3662,
+      "sha256": "ff71e4b096d616bfccf7f1b4835fdf76f859887d81addde104786c30a9099cbb"
     },
     "RUNBOOK.md": {
-      "bytes": 4813,
-      "sha256": "beffe4ca2de1551f3c93d82a054650aba898b0df1ea1a0989b77f87fa5d200cb"
+      "bytes": 6570,
+      "sha256": "7b94f9e01083d2170db0304b50943cbf57a430e84a2f3f562793104b9e8e59a7"
     },
     "SUBMISSION.md": {
-      "bytes": 3683,
-      "sha256": "8998aad7f33f0665b14c081f1c6236415006acbc406a7194c6b6419072dc1900"
+      "bytes": 4555,
+      "sha256": "b85226c7f0a4db36e77b117017599053c56ac5a11cdba5114d912eb91702a463"
     },
     "TASK_SPEC.md": {
-      "bytes": 17044,
-      "sha256": "20e83b5846174ef110c04b0684d2311b51df03e01cb5b91e1549295de96c3bad"
+      "bytes": 18054,
+      "sha256": "9ad3ba78a18298838617ca3b0e844e92f2b195c6758cfd0ce22c276af8950fa7"
     },
     "assets/DejaVuSans.ttf": {
       "bytes": 756072,
@@ -428,6 +437,22 @@
       "bytes": 59983,
       "sha256": "9848e2a6b310217b68e8e9fc14f121e41ee30383dc77614880c99399b568e454"
     },
+    "data/private/authoring_banks/sokoban_levels.json": {
+      "bytes": 95791,
+      "sha256": "1119718d22835a65706d716db946192d05bff9aed505cc875c5af4b60d900cf4"
+    },
+    "data/private/certificates.json": {
+      "bytes": 28337,
+      "sha256": "c1c8483b26c8a90051b960c4e5e2dcada185a582c85ffcad4a0f902aa0113345"
+    },
+    "data/private/construction_seeds.json": {
+      "bytes": 15074,
+      "sha256": "e529b398ece80b6f1dfa7d2d93f80ece9717f2850b46c348db586237a1963760"
+    },
+    "data/private/hidden.jsonl": {
+      "bytes": 234560,
+      "sha256": "9c6e54a9e953e4d28b01d25287b8789065032a5b3e12c27c3c97c067c402fb8c"
+    },
     "data/public/practice.jsonl": {
       "bytes": 315802,
       "sha256": "bc36e4a5060da8498dce41d9479014d5c270a597e9f2c315a85dd95e38776c06"
@@ -453,8 +478,8 @@
       "sha256": "d9154161b0160d964387acdef21502d6ac4d10df1f73044fdb3bbf3dfe1ae9aa"
     },
     "harbor/README_HARBOR.md": {
-      "bytes": 8976,
-      "sha256": "ba62b37122a60f4403a24f0dc2cd6ccfd6bd50ede9a2c1effa45c7fee12bbc5d"
+      "bytes": 10075,
+      "sha256": "1b9bf8c5370e9b7e151739a4a029e03edc4fff89137a5954f8b09bb1dcf2fc77"
     },
     "harbor/environment/Dockerfile": {
       "bytes": 2170,
@@ -549,8 +574,8 @@
       "sha256": "548ed1f4ef6bcda1470ef237a2bf379283c88980ca88d76352de09a045a89d37"
     },
     "proposal.md": {
-      "bytes": 23737,
-      "sha256": "1e0f7cdc24a8ce67ba377499d1007dc9543a8ab740088eb851da3b7cd88ce8a1"
+      "bytes": 28102,
+      "sha256": "7e0086dfc3ebeabb5cf4e4915c539c0cb04996a012746ab3e1ad209a8eaffcca"
     },
     "scripts/build_harbor_image.sh": {
       "bytes": 1008,
@@ -606,7 +631,8 @@
     }
   },
   "model_weights_included": false,
-  "private_judge_assets_included": false,
+  "private_judge_assets_included": true,
+  "repository_evaluation_asset_prefix": "evaluation-assets/",
   "schema_version": 1,
-  "status": "implemented_cpu_validated_gpu_pending"
+  "status": "Complete proposal source and original evaluation assets; GPU execution not performed"
 }

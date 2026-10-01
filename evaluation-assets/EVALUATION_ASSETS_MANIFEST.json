@@ -1,0 +1,50 @@
+{
+  "canonical_dataset_hash_definition": "SHA-256 of UTF-8 json.dumps(records, ensure_ascii=False, sort_keys=True, separators=(comma,colon)); distinct from the JSONL byte hash.",
+  "canonical_dataset_sha256": "0646e00e9203676c20b569676409ce000bdc53f6a4e63f5246f59c106a62890a",
+  "distribution": "Public, unencrypted construction assets, explicitly authorized by the contributor",
+  "encryption": "none",
+  "evaluation_record_count": 96,
+  "files": {
+    "data/private/authoring_banks/sokoban_levels.json": {
+      "bytes": 95791,
+      "purpose": "Original frozen Sokoban construction bank",
+      "sha256": "1119718d22835a65706d716db946192d05bff9aed505cc875c5af4b60d900cf4"
+    },
+    "data/private/certificates.json": {
+      "bytes": 28337,
+      "purpose": "Original private feasibility and reference-solution certificates",
+      "sha256": "c1c8483b26c8a90051b960c4e5e2dcada185a582c85ffcad4a0f902aa0113345"
+    },
+    "data/private/construction_seeds.json": {
+      "bytes": 15074,
+      "purpose": "Original per-split construction seeds",
+      "sha256": "e529b398ece80b6f1dfa7d2d93f80ece9717f2850b46c348db586237a1963760"
+    },
+    "data/private/hidden.jsonl": {
+      "bytes": 234560,
+      "purpose": "Frozen 96-instance evaluation suite with task data and reference certificates",
+      "sha256": "9c6e54a9e953e4d28b01d25287b8789065032a5b3e12c27c3c97c067c402fb8c"
+    }
+  },
+  "instances_per_type": {
+    "d_chart": 6,
+    "d_contract": 6,
+    "d_invoice": 6,
+    "d_version": 6,
+    "fifteen_puzzle": 6,
+    "key_maze": 6,
+    "minesweeper": 6,
+    "sokoban": 6,
+    "u_book_flight": 6,
+    "u_form_sequence": 6,
+    "u_multi_layouts": 6,
+    "u_read_table": 6,
+    "x_alert": 6,
+    "x_calendar": 6,
+    "x_expense": 6,
+    "x_fulfillment": 6
+  },
+  "runtime_boundary": "Task construction downloads these assets; exclude them, this delivery directory, archives and repository history from Work; inject evaluation records only into Judge-owned tests. Public availability is acknowledged and confidentiality is not claimed.",
+  "schema_version": 1,
+  "task": "JEV-Agent Self-Evolution"
+}

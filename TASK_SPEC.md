@@ -10,6 +10,8 @@
 
 此处“自进化”指 Work 阶段用同一个 JEV 读取自身失败、产生 prompt 修订并经过开发集筛选。隐藏评测使用冻结后的最终 prompt，每题重新开始。每轮演化都记录成功与失败，成绩不要求逐轮上升。
 
+原定评测记录、种子、证书和出题库已获准作为构建资料公开分发，详见 [EVALUATION_ASSETS.md](EVALUATION_ASSETS.md)。“隐藏/未见”指遵守评测协议的 Work 运行不接触这些实例，并非未公开或保证从未接触。计分 Work 禁止查看或利用已公开的评测构建资料；公开发布不再提供数据保密性。
+
 ## 混合任务
 
 设16种任务类型，每种 8 个公开练习实例、2 个公开验证实例、6 个隐藏实例，共 128 / 32 / 96 个实例。这256个实例已生成并通过结构认证和实际参考控制器回放；模型成绩仍未实测。全文中的开发集即验证集。
@@ -45,7 +47,7 @@ U 组采用 MiniWoB++ 的 `book-flight-nodelay`、`multi-layouts`、`form-sequen
 | `evolver` | 1024 tokens | 如何分析自己的执行轨迹、提取错误原因并改写 policy 和 memory |
 | `memory` | 512 tokens | 来自公开练习的可迁移经验、规则与检查清单 |
 
-可以改提示结构、示例、推理指引、经验组织与反思方式；不要求采用某一种现成优化算法。`baseline_prompts.json` 提供可复核的起点。已用固定发布版原生 tokenizer 测得 policy/evolver/memory 为188/133/0 tokens；四动作加满128-token scratch与EOS为169或201 tokens。实际多模态生成仍需GPU验证。
+可以改提示结构、示例、推理指引、经验组织与反思方式；不要求采用某一种现成优化算法。[baseline_prompts.json](baseline_prompts.json) 提供可复核的起点；baseline/work 命令在 [jevbench/cli.py](jevbench/cli.py)，三轮 Work 在 [jevbench/evolution.py](jevbench/evolution.py)，执行和评分在 [jevbench/runtime.py](jevbench/runtime.py)。已用固定发布版原生 tokenizer 测得 policy/evolver/memory 为188/133/0 tokens；四动作加满128-token scratch与EOS为169或201 tokens。实际多模态生成仍需GPU验证。
 
 模型权重及适配器、视觉处理、提示拼接顺序、工具定义、执行程序、解码方式、预算和评测全部固定。提示内容按普通字符串插入，不作为代码或模板执行。不能新增模型、OCR 服务、检索库、工具或可执行候选代码。也不能通过增加调用次数、分辨率或重试次数获得额外计算。
 
@@ -100,7 +102,7 @@ B0 是 `baseline_prompts.json` 的初始 policy 和空 memory，不做演化，�
 
 当前未开展模型推理或 H100 测试。模型发布版、Apache-2.0许可证、配置与33个资产的来源哈希已核实并记录于 `configs/model_lock.json`。固定版本为 `autotrust/JEV-27B-VL@3ea6d7a3a140d2d08e6a64174195967013168d5b`。自由生成使用其 System 2，也就是未改动的 Qwen3.8-27B；System 1 决策适配器不激活。不能把本题收益归因于该决策头。
 
-已实现 `jevbench/` 中的16族环境、数据生成/认证、统一执行器、原生token预算、固定三轮Work、完整Judge和模型资产校验。128/32/96实例已物化；隐藏明细、证书和种子仅保存在私有目录。源代码、公开数据、模型小资产与协议测试分别有可复核证据；没有伪造模型成绩。
+已实现 `jevbench/` 中的16族环境、数据生成/认证、统一执行器、原生token预算、固定三轮Work、完整Judge和模型资产校验。128/32/96实例已物化；原始评测明细、证书、种子及出题库通过完整 implementation ZIP、专用 evaluation ZIP 和 `evaluation-assets/data/private/` 逐文件目录公开交付，保留原数据字节与规范化数据集哈希。源代码、公开数据、模型小资产与协议测试分别有可复核证据；没有伪造模型成绩。
 
 以下真实运行条件尚待满足：
 
@@ -111,7 +113,7 @@ B0 是 `baseline_prompts.json` 的初始 policy 和空 memory，不做演化，�
 
 `trajectory_controller.py` 提供任务所有者主机上的严格24小时、12次Judge启动限额与Work→Judge流程，初始化后时间/配额不重置；当前版本不提供48小时扩展。Harbor外壳使用官方共享快照模式；官方Harness的24小时是Agent超时，可能等待在途Judge，部分可重试基础设施失败可能退回提交次数，不能与严格主机控制器混同。
 
-公开数据与隐藏数据在任务平台共享快照下仍有隔离限制，不能仅凭目录名宣称安全隔离；私有生成种子和验证状态只能进入 Judge 的任务所有路径。
+Base/Work 的复制白名单只包含练习/验证数据；`evaluation-assets/`、`data/private/`、`dist/` 和 `.git` 不得整体复制或挂载到 Work。评测记录仅进入 Judge-only tests 注入，种子、证书和出题库保留在任务所有者的构建审计资料中，不作为 Work 或 actor 的输入。公开分发意味着这些内容并不保密；任务平台共享快照仍有隔离限制，不能仅凭目录名宣称安全隔离。
 
 ## 公开依据
 

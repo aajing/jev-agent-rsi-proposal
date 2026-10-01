@@ -12,7 +12,7 @@ The schema and shared-environment layout follow the pinned OpenRSI-Index example
 repository, real GPU validation, RSI-Harness experiments and trajectory upload.
 No Discussion, repository, experiment or upload is created by these scripts.
 
-## Stage the task without exposing hidden records
+## Stage the task with evaluation records excluded from Work
 
 From the `jev-agent` project root:
 
@@ -21,21 +21,36 @@ python3 scripts/prepare_harbor.py --output /absolute/new/public-task-skeleton
 ```
 
 This requires all 128 practice and 32 validation instances and pinned MiniWoB
-assets. It copies only public records into `environment/bundle`, including the
-frozen package, font and game/browser assets. The default output cannot run Judge.
-To create the **private task-owner working tree**, explicitly include private data:
+assets. It copies only practice and validation records into `environment/bundle`,
+including the frozen package, font and game/browser assets. The default output
+cannot run Judge. The original evaluation records and construction assets are
+publicly downloadable from the full implementation ZIP, dedicated evaluation
+ZIP and individual files described in [EVALUATION_ASSETS.md](../EVALUATION_ASSETS.md).
+Restore the four unchanged files to `data/private/` in the task-owner construction
+tree as described there, then stage the Judge-enabled tree using the existing
+compatibility option:
 
 ```bash
 python3 scripts/prepare_harbor.py \
   --output /absolute/new/private-harbor-task --include-private
 ```
 
-Never publish that private working tree. Its 96 hidden records reside solely in
-`tests/private/hidden.jsonl`; private seeds and authoring banks are not copied.
-Only the environment directory is the Docker build context. The hidden records
-must be injected as trusted verifier assets, never copied into the base image or
-exposed during Work. The public and private task trees share identical public
-source and rules.
+The 96 frozen evaluation records reside in `tests/private/hidden.jsonl` in the
+staged tree; construction seeds, certificates and authoring banks are not copied.
+Only the environment directory is the Docker build context. The existing copy
+allowlist excludes the root `evaluation-assets/`, `data/private/`, `dist/` and
+`.git` directories from Base/Work; do not mount the entire source checkout there.
+Evaluation records enter the Judge-only tests injection, never the Base/Work
+image. Public release means these assets are not secret; inspecting or using
+them during a scored Work trajectory remains prohibited. The default and
+Judge-enabled trees share identical candidate source, practice/validation data
+and rules.
+
+The unchanged helper still uses the historical `--include-private` name,
+non-publication warnings and `publishable_tree` flag. These describe its original
+distribution policy. The explicit publication scope for the four frozen
+construction files is now documented in [EVALUATION_ASSETS.md](../EVALUATION_ASSETS.md);
+it does not authorize publishing owner logs, credentials or unrelated files.
 
 ## Build on the task owner's Linux machine
 
@@ -78,8 +93,8 @@ mock model or synthetic scores for these results.
 
 ## Shared-snapshot verifier contract
 
-`tests/test.sh` launches `tests/evaluate.py` from the independent trusted tests
-mount. It accepts only one non-symlink, single-link `candidate.json` in the
+`tests/test.sh` launches `tests/evaluate.py` from the Judge-only task-owned tests
+injection. It accepts only one non-symlink, single-link `candidate.json` in the
 workspace and snapshots at most 2 MiB of complete artifact bytes. Canonical B0
 may be exactly three strings; all evolved candidates require the full fixed-Work
 envelope. `jevbench.evolution.validate_work_artifact` checks the native prompt
@@ -141,8 +156,9 @@ initial controls and B0 must be task-owner runs labeled accurately.
 
 ## Required before a completed contribution
 
-1. Freeze complete public/private manifests and retain private records outside
-   the base image; validate exactly 128/32/96 unique instances and all references.
+1. Preserve the published frozen construction assets and their byte/canonical
+   hashes; keep evaluation records outside the Base/Work image. Validate exactly
+   128/32/96 unique instances and all references.
 2. Build the image, inspect the resolved dependencies and model pin, test offline
    startup and confirm memory/runtime/output-format feasibility on the H100.
 3. Run and record real B0/B1 and prompt-improvement experiments. Calibrate game

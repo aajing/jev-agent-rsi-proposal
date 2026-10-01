@@ -14,7 +14,7 @@
 
 本机浏览器验证使用 `JEV_CHROMIUM_EXECUTABLE` 指向 Chrome；正式 Linux 镜像使用 Playwright 1.44.0 对应的 Chromium。两种环境的验证记录分开，不能用前者代替后者。
 
-已有数据保存在 `data/public/` 与 `data/private/`。`python -m jevbench build-data --data data` 会复核并补齐数据；隐藏种子由任务所有者保存在私有目录。不要把重新生成的数据插入已经计分的研究轨迹。
+128/32 个练习与验证实例位于 `data/public/`。原定 96 个评测实例、构建种子、证书和出题库现已获准公开分发，下载位置、逐文件字节哈希及规范化数据集哈希见 [EVALUATION_ASSETS.md](EVALUATION_ASSETS.md)。完整 implementation ZIP 包含原始 `data/private/*`；也可从专用 evaluation ZIP 或 `evaluation-assets/data/private/` 获取完全相同的四个文件，并在任务所有者构建目录恢复为 `data/private/*`。旧路径中的 private 表示历史命名，不再表示未公开。不要重新生成、替换或修改批准的冻结实例；`build-data` 是历史构建工具，不是取得本次评测集所需的交付步骤。
 
 ## 构建正式运行环境
 
@@ -23,7 +23,7 @@ python3 scripts/prepare_harbor.py --output /absolute/private-task --include-priv
 bash scripts/build_harbor_image.sh /absolute/private-task jev-agent:validation
 ```
 
-`--include-private` 的输出是私有任务所有者工作树，不能上传到公开仓库或公开 ZIP。Docker 只以其 `environment/` 为构建上下文，隐藏记录进入 Judge-only `tests/private/`。构建联网获取固定模型与浏览器，正式 Work/Judge 断网。完整说明见 `harbor/README_HARBOR.md`。
+`--include-private` 是保留兼容性的历史参数名；脚本中的禁止公开提示和 `publishable_tree` 状态来自原分发政策，本次四个冻结构建文件的公开授权及范围见 [EVALUATION_ASSETS.md](EVALUATION_ASSETS.md)。该授权不覆盖运行日志、凭据或其他无关文件。Docker 只以其 `environment/` 为构建上下文；复制白名单仅把练习/验证实例放入 Base/Work，评测记录仅进入 Judge-only `tests/private/`。`evaluation-assets/`、`data/private/`、`dist/` 和 `.git` 均不能整体复制或挂载到 Work。种子、证书和出题库用于构建审计，无需进入 Work 或推理输入。构建联网获取固定模型与浏览器，正式 Work/Judge 断网。公开分发不再提供数据保密性；计分轨迹仍禁止查看或利用评测构建资料。完整说明见 [harbor/README_HARBOR.md](harbor/README_HARBOR.md)。
 
 ## H100 基线与公开难度校准
 
@@ -36,7 +36,7 @@ python -m jevbench calibrate --model /opt/jev-model \
   --data /absolute/jev-agent/data --output /absolute/new-gpu-evidence/calibration.json
 ```
 
-第一条命令运行真实 smoke、公开 B0 验证和三轮 B1 Work；第二条在128个公开练习实例上测困难程度。所有输入/输出含原生视觉 tokens；加载、失败、思考、截断与重试均不成为免费计算。不得把参考控制器或测试 fake backend 的结果登记为模型成绩。
+基线文件为 [baseline_prompts.json](baseline_prompts.json)，baseline/work 命令在 [jevbench/cli.py](jevbench/cli.py)，固定三轮调度在 [jevbench/evolution.py](jevbench/evolution.py)，执行和评分在 [jevbench/runtime.py](jevbench/runtime.py)。第一条命令运行真实 smoke、公开 B0 验证和三轮 B1 Work；第二条在128个公开练习实例上测困难程度。所有输入/输出含原生视觉 tokens；加载、失败、思考、截断与重试均不成为免费计算。不得把参考控制器或测试 fake backend 的结果登记为模型成绩。
 
 模型使用发布版 System 2。启动会重算所有固定模型文件的 SHA256 或 Git blob 哈希，验证原生输入长度和视觉网格 token 数。原生文本 tokenizer 已验证；AutoProcessor、GPU 生成、显存和吞吐仍须实际运行确认。
 
@@ -70,4 +70,4 @@ python scripts/trajectory_controller.py status --state /owner/run-001
 python3 package_submission.py
 ```
 
-包内只有代码、公开实例、来源哈希、测试和文档；排除隐藏数据、种子、私有关卡库、权重、虚拟环境、平台二进制及构建产物。`dist/jev-agent-proposal.sha256` 用于核对附件。新任务独立打包，第一道题不变。
+上述历史打包脚本仍生成代码与练习/验证资料的基础包，其原排除规则没有被改写。本次发布的完整 `dist/jev-agent-proposal.zip` 另补入原始四个 `data/private/*` 文件、`EVALUATION_ASSETS.md` 和 `EVALUATION_ASSETS_MANIFEST.json`；不要仅运行旧脚本后就把缺少这些评测资产的基础包当作完整发布包。另提供 `dist/jev-agent-evaluation-assets.zip` 与逐文件下载目录，详见 [EVALUATION_ASSETS.md](EVALUATION_ASSETS.md)。权重、虚拟环境、平台二进制、凭据、运行日志和无关构建产物不在授权发布范围。`dist/jev-agent-proposal.sha256` 用于核对完整附件；公开资产与 Work 可见资产的边界按前述 staging 白名单维持。

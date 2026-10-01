@@ -5,7 +5,7 @@
 | 项目 | 状态与证据 |
 | --- | --- |
 | 16 类任务引擎 | `jevbench/visual_tasks.py`、`push_maze.py`、`mines_puzzle.py` |
-| 128/32/96 数据 | 同生成器、同两档难度、独立实例，全部生成并参考回放；隐藏内容仅在 `data/private/` |
+| 128/32/96 数据 | 同生成器、同两档难度、独立实例，全部生成并参考回放；四个原始评测构建文件按 [EVALUATION_ASSETS.md](EVALUATION_ASSETS.md) 公开交付，冻结记录在正式运行时仅经 Judge-only tests 注入 |
 | 困难游戏 | 推箱子精确搜索、迷宫状态 BFS、扫雷可见约束枚举与雷数 DP、十五数码精确 IDA*；认证会重算而非信任声明 |
 | 原生网页 | 固定 MiniWoB 与 BrowserGym；本机 Chrome 的真实截图和像素操作测试通过，Linux bundled Chromium 待复核 |
 | 执行与计分 | 动作 JSON、调用/原子/token/时间预算、三轮修订、完整评测与隐藏汇总；见 `tests/test_runtime.py` |
@@ -16,7 +16,9 @@
 | Harbor | TOML、Dockerfile、Solution、Judge、部署脚本及8项边界测试；尚未 Docker build 或官方 validator 运行 |
 | 官方通用静态检查 | 实际执行20项，19项通过；5小时时限规则与RSI模板的24小时配置不同，保留并报告失败，不能称官方validator通过 |
 | H100 实测 | 后续任务执行阶段事项；本次不需要提供连接或启动 GPU |
-| 正式研究轨迹 | 尚未运行或上传；没有发布 Discussion 或公开私有数据 |
+| 正式研究轨迹 | 尚未运行或上传；题目提案已提交 [Discussion #147](https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/147)，公开构建资产不代表已完成模型实验 |
+
+本次明确公开授权覆盖 `evaluation-assets/data/private/` 中四个原始文件及未加密的 `dist/jev-agent-evaluation-assets.zip`；原始数据与代码字节不变，其中历史“不公开”政策文字由本次授权取代。公开后不再宣称资产保密；“隐藏”仅描述评测运行时边界。Work 镜像和工作区必须排除 `evaluation-assets/`、`data/private/`、`dist/` 和 `.git/`，只由 Judge-only tests 注入冻结评测记录。
 
 原始 B0、三轮 B1 和改进候选须在同一冻结模型上实测。公开练习中的游戏难度目标仍是 B0 总体约10%–40%；该目标不是观测成绩。若实测显示门槛不合理，先依据公开数据调整统一规则，再重新冻结所有分割；不能按隐藏失败挑关卡。
 
